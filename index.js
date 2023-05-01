@@ -7,7 +7,6 @@ function generateKey(leng, characters) {
     sortArr.splice(leng);
     const key = sortArr.join("");
     console.log(key);
-    return key
 }
 generateKey(16, characters);
 
